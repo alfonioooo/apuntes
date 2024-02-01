@@ -1,2 +1,1 @@
-Diego tus putisimos muertos
-
+Antonio es gay
