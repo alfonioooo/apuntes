@@ -9,7 +9,7 @@ public class App {
     
         Automovil ferrari = new Automovil("Ferrari", "Rojo");
         Automovil nissan = new Automovil("Skyline", "Azul");
-    
+    puta
         auto.add(ferrari); 
         auto.add(nissan);
         System.out.println(" " + auto.get(0));
