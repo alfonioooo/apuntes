@@ -1,1 +1,37 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        // Creamos el ArrayList
+        List<String> listaAutos = new ArrayList<>();
+
+        // Agregamos un elemento a la lista
+        listaAutos.add("Mercedes Benz");
+        listaAutos.add("Seat");
+        System.out.println(listaAutos.get(1));
+        // Acontiniacion recorremos la lista elementos con un foreach
+
+        for (String auto : listaAutos) {
+            System.out.println(auto);
+        }
+
+        // El parametro 0 representa el indice que queremos eliminar
+        listaAutos.remove(0);
+
+        // Eliminar elemento mediante su nombre
+        listaAutos.remove("Seat");
+        System.err.println(listaAutos);
+
+        // Para eliminar todos los elmentos de la lista usamos clear
+        listaAutos.clear();
+        System.err.println(listaAutos);
+
+        // Agregamos un elemento a la lista
+        listaAutos.add("Mercedes Benz");
+        listaAutos.add("Seat");
+        System.out.println(listaAutos.contains("Seat"));
+
+    }
+}
 
